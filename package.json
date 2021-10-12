@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "@quipuswap/sdk": "^2.1.0",
+    "@taquito/beacon-wallet": "^10.1.2",
+    "@taquito/signer": "^10.1.2",
+    "@taquito/taquito": "^10.1.2",
+    "@taquito/tzip16": "^10.1.2",
+    "tslog": "^3.2.2",
+    "typescript": "^4.4.3",
+    "yargs": "^17.1.1",
+    "yarn": "^1.22.11"
+  },
+  "name": "tezos-auto-swap",
+  "version": "1.0.0",
+  "description": "TypeScript scripts to auto-swap tezos tokens under certain conditions. ",
+  "scripts": {
+    "start-price-trigger": "node price_trigger.js",
+    "start-time-trigger": "node time_trigger.js"
+  },
+  "keywords": [
+    "tezos",
+    "trigger",
+    "sell",
+    "token"
+  ],
+  "author": "Joe Mellado",
+  "license": "GNU GPLv3",
+  "engines": {
+    "node": "16.x"
+  },
+  "devDependencies": {
+    "@types/node": "^16.9.1"
+  }
+}
